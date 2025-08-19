@@ -9,6 +9,11 @@
     font-size: 28px;
 }
 
+h1 {
+    padding: 10px;
+    color: #1C3450;
+}
+
 .title {
     margin-right: 20px;
     margin-left: 40px;
@@ -37,7 +42,7 @@ button {
 }
 
 body {
-    background: #8A8A8A;
+    background: #CFCFCF;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -58,7 +63,7 @@ img {
 }
 
 .christian {
-    margin-left: 160px;
+    margin-left: 100px;
 }
 
 .ashton {
@@ -69,27 +74,12 @@ img {
     margin-left: 100px;
 }
 
-.exampleAfter {
-    background-color: #333;
-    overflow: auto;
-    white-space: nowrap;
-    padding: 10px;
-}
-
-.after {
-    height: 500px;
-    width: 450px;
-    padding: 10px;
-}
-
-.after2 {
-    height: 500px;
-    width: 550px;
-    padding: 10px; 
+.example {
+    margin: 20px;
 }
 
 .exampleBefore {
-    background-color: #333;
+    background-color: #9b9b9b;
     overflow: auto;
     white-space: nowrap;
     padding: 10px;
@@ -98,11 +88,38 @@ img {
 .before {
     height: 500px;
     width: 450px;
-    padding: 10px;
+    padding: 4px;
 }
 
-.before2 {
-    height: 500px;
-    width: 430px; 
-    padding: 10px;
+footer {
+    background: white;
+    padding: 30px;
+}
+
+.pricing {
+    width: 550px;
+    border: 3px white solid;
+}
+
+.connect {
+    display: flex;
+    margin-left: 450px;
+}
+
+.phone {
+    height: 200px;
+    width: 200px;
+}
+
+.insta {
+    margin-top: 15px;
+    height: 170px;
+    width: 230px;
+    margin-bottom: 12px;
+    margin-left: 120px;
+    cursor: pointer;
+}
+
+.instaHandle {
+    margin-left: 120px;
 }
